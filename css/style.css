@@ -3,34 +3,26 @@ background-color: darkgrey;
 color:black;
 }
 
+/* header */
 .header{
 display:flex;
 background-image: url("../pic/tim-mossholder-J0sMjGu6jvQ-unsplash.jpg");
 background-repeat: no-repeat;
-image-orientation: 20deg ;
-/* justify-content: flex-end; */
 flex-direction: row; 
 justify-content: space-around;
  height:10em;
- width:1903px;
+ width:100%x;
 }
-.page{
-    width:100%;
-}
+
+
+
 .Pic{
     position: relative;
     left:121px;
     width:1263.3px;
 
 }
-/* .headerImg{
-    display: flex;
-    justify-content: flex-end;
-    flex-direction: row;
-    background-position-y: 1; 
-    height: 100%;
-    width: 100%;
-} */
+
 
 .name{
     position: relative;
@@ -45,40 +37,31 @@ justify-content: space-around;
 
 }
 
-/* .ref{
-    display:flex;
-    flex-direction: row;
-  
-} */
 
-.bioButton, .projuctsButton, .gitHubButton{
-    position: relative;
-    right:166px; 
-    justify-content: flex-end;
-    align-self: flex-end;
-   /* background-color: navy; */
+.bioButton, .projuctsButton, .gitHubButton, ul,a:link, a:visited{
+   display: flex;
+    /* position: relative; */
+    /* right:166px;  */
+    flex-direction: row;
+    /* justify-content: flex-end;
+    align-self: flex-end; */
     margin: 10px;
     font-size: 30px;
     color: whitesmoke;
+    text-decoration: none;
 }
-}
-/* .refrence{
-    background-position-y: 2;
-    position: relative;
-    justify-self: flex-end;
-    justify-content:space-evenly ;
-    color:white;
 
-} */
 
+/*page */
 .page{
     width:100%;
-    height:40em;
+    height:100%;
 }
 
 .aboutMe{
 margin-top: 6px;    
-font-size:30px ;
+font-size:42px;
+color:white ;
 }
 .me{
     float: left;
@@ -87,8 +70,10 @@ font-size:30px ;
     height:auto;
 }
 p{
-
+font-size:25px;
+color: whitesmoke;
 }
+/* projects */
 .projects{
     display:flex;
     flex-direction: row;
@@ -104,8 +89,13 @@ p{
     border-style: solid;
     border-color: royalblue;
     background-color: yellowgreen;
+  
 }
-
+/* iframe{
+    width: 100%;
+    height:100%;
+} */
+/* footer */
 .footer{
     height:10em;
     width:100%;
