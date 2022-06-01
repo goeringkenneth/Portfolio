@@ -1,0 +1,141 @@
+body{
+    background-image: url("../pic/tim-mossholder-J0sMjGu6jvQ-unsplash.jpg");
+    background-repeat:auto;
+color:black;
+}
+
+/* header */
+.header{
+display:flex;
+background-image: url("../pic/tim-mossholder-J0sMjGu6jvQ-unsplash.jpg");
+background-repeat: no-repeat;
+flex-direction: row; 
+justify-content: space-around;
+ height:7em;
+ width:100%;
+}
+
+
+
+.Pic{
+    position: relative;
+    left:121px;
+    width:1263.3px;
+
+}
+
+
+.name{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-between;
+    height:2em;
+    width:97.38%;
+    padding: 20px;
+    font-size: 30px;
+    color:whitesmoke;
+
+}
+
+
+.bioButton, .projuctsButton, .gitHubButton, ul,a:link, a:visited{
+   display: flex;
+    
+    flex-direction: column;
+ 
+    margin: 10px;
+    font-size: 30px;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+
+/*page */
+
+
+.aboutMe{
+margin-top: 6px;    
+font-size:42px;
+color:white ;
+}
+.me{
+    float: left;
+    margin-top: 6px;
+    width: 40%;
+    height:auto;
+}
+p{
+font-size:25px;
+color: whitesmoke;
+}
+/* projects */
+
+.projectsMain{
+    display: flex;
+
+    align-items: center;
+    width:100%;
+    height: auto;
+  
+    border-style: solid;
+    border-color: royalblue;
+
+  
+}
+#sec{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width:100%;
+    height: auto;
+     border-style: solid;
+    border-color: royalblue;
+  
+  
+}
+
+.projectsSec{
+    display: flex;
+    flex-direction: row;
+    
+    align-items: center;
+    width:25%;
+    height: auto;
+  
+    border-style: solid;
+    border-color: royalblue;
+}
+
+ .secImg{
+    width:100%;
+    height:50%;
+    border-radius: 2%;
+}
+
+.mainImg{
+    width:100%;
+    height:10%;
+}
+
+/* footer */
+
+
+.contact{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    height:1em;
+    width:97.38%;
+    padding: 20px;
+    font-size: 20px;
+   
+
+    background-color: lightgray;
+ 
+}
+
+.logo{
+    height: 1.5em;
+    
+}
