@@ -1,29 +1,21 @@
 body{
-    background-image: url("../pic/tim-mossholder-J0sMjGu6jvQ-unsplash.jpg");
+    /* background-image: url("../pic/tim-mossholder-J0sMjGu6jvQ-unsplash.jpg");
     background-repeat:auto;
-color:black;
+color:black; */
+background-color: #4794bdff;
 }
 
-/* header */
+/*******************************************header*************************/
 .header{
 display:flex;
-background-image: url("../pic/tim-mossholder-J0sMjGu6jvQ-unsplash.jpg");
-background-repeat: no-repeat;
+/* background-image: url("../pic/tim-mossholder-J0sMjGu6jvQ-unsplash.jpg");
+background-repeat: no-repeat; */
+background-color:#DD7957ff;
 flex-direction: row; 
 justify-content: space-around;
- height:7em;
+ height:100%;
  width:100%;
 }
-
-
-
-.Pic{
-    position: relative;
-    left:121px;
-    width:1263.3px;
-
-}
-
 
 .name{
     display: flex;
@@ -32,77 +24,70 @@ justify-content: space-around;
     justify-content: space-between;
     height:2em;
     width:97.38%;
-    padding: 20px;
+    /* padding: 20px; */
     font-size: 30px;
-    color:whitesmoke;
+    color: #0Cff;
 
 }
 
-
 .bioButton, .projuctsButton, .gitHubButton, ul,a:link, a:visited{
-   display: flex;
-    
+    display: flex;
     flex-direction: column;
- 
     margin: 10px;
     font-size: 30px;
-    color: whitesmoke;
+    color:  #0Cff;
     text-decoration: none;
 }
 
-
-/*page */
-
-
+/**************************************page *********************************/
 .aboutMe{
-margin-top: 6px;    
+margin-top: 1.5%;    
 font-size:42px;
-color:white ;
+color:#EBE9DCff;
 }
+
 .me{
     float: left;
-    margin-top: 6px;
-    width: 40%;
+    margin-top: .7%;
+    margin-left: .7%;
+    margin-right: .7%;
+    width: 20%;
     height:auto;
 }
+
 p{
-font-size:25px;
-color: whitesmoke;
+    margin-top: 3%;
+    font-size:25px;
+    color: #EBE9DCff;
 }
-/* projects */
+
+/************************************ projects ***********************************/
 
 .projectsMain{
     display: flex;
-
     align-items: center;
     width:100%;
     height: auto;
-  
     border-style: solid;
     border-color: royalblue;
-
-  
 }
+
 #sec{
     display: flex;
     flex-direction: row;
     align-items: center;
     width:100%;
     height: auto;
-     border-style: solid;
+    border-style: solid;
     border-color: royalblue;
-  
-  
 }
 
 .projectsSec{
     display: flex;
     flex-direction: row;
-    
     align-items: center;
     width:25%;
     height: auto;
-  
     border-style: solid;
     border-color: royalblue;
 }
@@ -118,9 +103,7 @@ color: whitesmoke;
     height:10%;
 }
 
-/* footer */
-
-
+/*************************************footer *************************************/
 .contact{
     display: flex;
     align-items:center;
@@ -129,13 +112,29 @@ color: whitesmoke;
     width:97.38%;
     padding: 20px;
     font-size: 20px;
-   
-
-    background-color: lightgray;
- 
+    background-color: #DD7957ff;
 }
 
-.logo{
+.github{
+    height: 1.8em;
+}
+
+.linkedIn{
     height: 1.5em;
-    
+}
+
+/* **********************************colorPalate****************************************** */
+p,.aboutMe{
+    color:#FBF2ADff;
+}
+
+.bioButton, .projuctsButton, .gitHubButton, ul,a:link, a:visited{
+    color:#FBF2ADff;
+}
+
+.name, a.email:link, a.email:visited{
+    color:#DD7957ff;
+}
+.header, .contact{
+    background-color:#0C2E5Bff;
 }
