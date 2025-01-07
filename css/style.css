@@ -19,12 +19,12 @@ justify-content: space-around;
 
 .name{
     display: flex;
-    flex-direction: row;
-    align-items:center;
+    flex-direction: column;
+ 
     justify-content: space-between;
-    height:2em;
+    /* height:2em; */
     width:97.38%;
-    /* padding: 20px; */
+    padding: 10px;
     font-size: 30px;
     color: #0Cff;
 
@@ -108,7 +108,7 @@ p{
     display: flex;
     align-items:center;
     justify-content: space-between;
-    height:1em;
+    height:1.7em;
     width:97.38%;
     padding: 20px;
     font-size: 20px;
