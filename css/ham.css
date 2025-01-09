@@ -1,0 +1,155 @@
+
+nav{
+    position: relative;
+}
+
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top:50%;
+    transform: translate(100%, 35%);
+    z-index: 2;
+}
+/* hamberger lines */
+.lineTop, .lineMid, .lineBott, .lineAss{
+  background:#FBF2ADff;
+
+}
+.lineTop{
+  width:30px;
+  height: 3px;
+  margin: 5px;
+}
+.lineMid{
+width:30px;
+height: 3px;
+margin: 5px;
+}
+.lineBott{
+width:30px;
+height: 3px;
+margin: 5px;
+
+}
+.lineAss{
+width:30px;
+height: 3px;
+background: none;
+margin: 5px;
+}
+
+nav{
+  height: 100%;
+  width: 100%;
+  background-color:#000000;
+} 
+
+.nav-links{
+  display: flex;
+  list-style: none;
+  width: 50%;
+  justify-content:space-evenly;
+  align-items: end;
+  margin-left: auto;
+}
+
+.nav-links li a{
+  color:white;
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: 30px;
+  margin-right: 50px;
+  
+}
+
+/* hamberger dropdown */
+  .nav-links{
+    position: fixed;
+    background-color: gray;
+    /* background-image: url(.././pic/caroni.jpg);  */
+    background-size: 60vw;
+    opacity: 70%;
+    background-position:80dvh;
+    height: 100vh;
+    width:100%;
+    flex-direction: column;
+    clip-path: circle(100px at 100% -30%);
+    -webkit-clip-path:circle(50px at 100% -15%);
+    transition: all 1s ease-out;
+    pointer-events: none;
+}
+
+
+
+.lineTop.open{
+background:#4794BDff;
+transform: translate( 0%, 600%) rotate(-45deg) ;
+
+}
+.lineAss.open{
+  background:#DD7957ff;
+  transform: translate(0px, -5px) rotate(90deg) ;
+  ;
+
+}
+.lineMid.open{
+  background:#FBF2ADff;
+  transform: translate(0%, 300%);
+
+}
+.lineBott.open{
+  background: #0C2E5Bff;
+  transform: translate(0%, 50%) rotate(45deg) ;
+}
+
+/* hamburger animatiion */
+.nav-links.open{
+  clip-path: circle(1000px at 90% -15%);
+  -webkit-clip-path:circle(1000px at 90% -15%);
+  pointer-events: all;
+
+}
+.cube.open{
+  opacity: 0;
+}
+.scene.open{
+  opacity: 0;
+}
+
+.nav-links li{
+    opacity: 0;
+}
+
+.nav-links li a{
+    font: size 25px;
+}
+
+.nav-links li:nth-child(1){
+    transition: all 0.5s ease 0.2s;
+
+}
+.nav-links li:nth-child(2){
+  transition: all 0.5s ease 0.4s;
+}
+
+.nav-links li:nth-child(3){
+  transition: all 0.5s ease 0.6s;
+    
+}
+
+li.fade{
+    opacity: 1;
+}
+
+
+@media screen and (max-width:412px) {
+  .nav-links{
+    background-size: 200vw;
+  }
+  .nav-links li a{
+    color:rgb(244, 247, 247);
+    background-color: rgb(153, 19, 211);
+  }
+
+  }

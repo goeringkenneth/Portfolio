@@ -2,28 +2,38 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-------------------------------------------- CSS link Files ----------------------------------------------------->
+    <link rel="stylesheet" href="css/ham.css">
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <!--<link rel="icon" href="pic/icon.png" type="">-->
-    
-    <title>Kenneth Goeirng</title>
+        
+    <title>Kenneth Goering</title>
+    <link rel="icon" type="image/x-icon" href="./pic/favicon-32x32.png">
+
 </head>
 
 <body>
     
-    <header>
-        <div class= "header"> 
+    <div class="main">
+<!-------------------------------------------Top landing Area and (Hamburger)---------------------------------------------->
+        <div class= "landing"> 
+            <div class="leftSide">
+                <h1 class="name">Kenneth Goering</h1>
+            </div>     
+            <!-- <div class="rihgtSide">
+                <a href="#bio">Bio</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div> -->
 
-                <!-- <div class="name"> -->
-                <div class="leftSide">
-                    <h1 class="name">Kenneth Goering</h1>
-                </div>
-                <!-- </div> -->
-                    
-                <div class="rihgtSide">
+            <!-- <div class="rihgtSide">
+                <div class="proJ">
                     <a href="#bio">Bio</a>
                 </div>
-                    
+                
                 <div class="proJ">
                     <a href="#projects">Projects</a>
                 </div>
@@ -31,36 +41,50 @@
                 <div class="ConTact">
                     <a href="#contact">Contact</a>
                 </div>
-                    
-        </div>    
-      
-    </header>
-
-<div class="page">
-        <H1 class="aboutMe">About Me</H1>
-
-                     <img class="me" src="pic/mePort.jpg">
+            </dvi> -->
+            <nav>
+                <div class="hamburger">
+                            <div class="lineTop"></div>
+                            <div class="lineMid"></div>
+                            <div class="lineBott"></div>
+                            <div class="lineAss"></div>
+                </div>
                 
-                    <div id="bio" class="bio">
-                        <p>I am a full-stack developer with a passion for cutting-edge technology. I have experience in the lidar industry, 
-                            having served as a Lead Engineering Test Technician at MicroVision, a pioneer in lidar technology.
-                            I also have a background in aerospace engineering, having worked on projects like the B-2 and 787 at Boeing, 
-                            and served in the Air Force, maintaining fighter aircraft. I'm a devoted husband to Nancy and father to Keegan, 
-                            an 18 year old boy that is a video game expert and wants to develop video games in the future, Kylie,
-                            a 10 year old girl that loves skin care and Kaden a 8 year old boy that tells me all the “Illegal LEGO techniques” .
-                            When I'm not coding, I enjoy golfing, snowboarding, and exploring the latest tech gadgets. 
-                        </p>
-                    </div>
+                <div class="nav-links">
+                    <ul class="nav-links">
+                        <li><a href="#bio">Bio</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        </li><a href="#contact">Place Holder</a></li>
+                    </ul>
+                </div>
+            </nav>           
+        </div>    
+<!---------------------------------------------------About Me section ----------------------------------------------------->
+        <div class="page">
+            <H1 class="aboutMe">About Me</H1>
+            <img class="me" src="pic/mePort.jpg">
+            <div id="bio" class="bio">
+                <p>I am a full-stack developer with a passion for cutting-edge technology. I have experience in the lidar industry, 
+                    having served as a Lead Engineering Test Technician at MicroVision, a pioneer in lidar technology.
+                    I also have a background in aerospace engineering, having worked on projects like the B-2 and 787 at Boeing, 
+                    and served in the Air Force, maintaining fighter aircraft. I'm a devoted husband to Nancy and father to Keegan, 
+                    an 18 year old boy that is a video game expert and wants to develop video games in the future, Kylie,
+                    a 10 year old girl that loves skin care and Kaden a 8 year old boy that tells me all the “Illegal LEGO techniques” .
+                    When I'm not coding, I enjoy golfing, snowboarding, and exploring the latest tech gadgets. 
+                </p>
+            </div>
         </div>
-    
+        
+<!-----------------------------------------------Projects Section---------------------------------------------------------->
         <div id="projects" class="projects">
-            <!-- <div id="main" class="projects"> -->
-            
+                                        <!--  Star Protject  -->
+            <div class="starProj">
                 <div class="projectsMain"><a href= "https://themancalledzac.github.io/Tourist-Simulator/">
                     <img class="mainImg" src="pic/TouristSimulator.jpg"alt="Group project"></a>
-                    
-                </div>
-            </div> 
+                </div>   
+            </div>
+                                        <!-- Other Projects -->
             <div id="sec" class="projects">
 
                 <div class="projectsSec"><a href= "https://goeringkenneth.github.io/Weather-/">
@@ -68,38 +92,35 @@
                 </div>
 
                 <div class="projectsSec"><a href= "https://goeringkenneth.github.io/Daily-Task-Manager/">
-                <img class="secImg" src="pic/Schedualer.jpg"alt="schedualer"></a>
+                    <img class="secImg" src="pic/Schedualer.jpg"alt="schedualer"></a>
                 </div>           
         
                 <div class="projectsSec"><a href= "https://goeringkenneth.github.io/Rock-paper-scissors/">
-                <img class="secImg" src="pic/rockpaperscissors.jpg"alt="RPS"></a>
+                    <img class="secImg" src="pic/rockpaperscissors.jpg"alt="RPS"></a>
                 </div>  
-
+  
                 <div class="projectsSec"><a href= "https://goeringkenneth.github.io/Animated-Card/">
-                <img class="secImg" src="pic/animationCard.jpg"alt="animationCard"></a>
-                </div> 
-            </div>
+                    <img class="secImg" src="pic/animationCard.jpg"alt="animationCard"></a>
+                </div>
+            </div> 
         </div>
-
-</div>   
-   <div class="footer">
+         
+        <div class="footer">
             <div class="contact">
-            <div class="leftside">
+                <div class="leftside">
                     <a class="email" href = "mailto: goerngkenneth@gmail.com">goeringkenneth@gmail.com</a>
-            </div>
-            <div class="center">
-                <a href="https://www.linkedin.com/in/kenneth-goering/"><img class="linkedIn" src="pic/linkedin-svgrepo-com.svg"></a>
-            </div>
-            
-            <div class="rightside">
-                <a href ="https://github.com/goeringkenneth"><img class="github" src="pic/github-square_gray.png" alt="github logo"></a>
-                 
+                </div>
+
+                <div class="center">
+                    <a href="https://www.linkedin.com/in/kenneth-goering/"><img class="linkedIn" src="pic/linkedin-svgrepo-com.svg"></a>
+                </div>
+
+                <div class="rightside">
+                    <a href ="https://github.com/goeringkenneth"><img class="github" src="pic/github-square_gray.png" alt="github logo"></a>                
+                </div>
             </div>
         </div>
-    </div>
-   </div>    
-
-
-
+    </div>   <!--main-->
+    <script type="text/javascript" src="script.js"></script>
 </body>
 </html>
